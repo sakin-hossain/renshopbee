@@ -1,0 +1,108 @@
+[
+  {
+    "bestSeller": [
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/p3XwFsm/closeup-shot-golden-watch-isolated-181624-28492.jpg",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/dDkztM1/school-student-bag-1101-3.jpg",
+        "name": "School Bag",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/VJx9m5d/sunglasses-realistic-set-with-different-models-sun-goggles-with-metal-plastic-frames-with-shadows-12.jpg",
+        "name": "Sunglasses",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/vkJvG23/open-modern-laptop-with-blank-screen-isolated-white-90220-159.jpg",
+        "name": "Laptop",
+        "price": "2504.00",
+        "rating": 4
+      }
+    ]
+  },
+  {
+    "featured": [
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/vkJvG23/open-modern-laptop-with-blank-screen-isolated-white-90220-159.jpg",
+        "name": "Laptop",
+        "price": "2504.00",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/dDkztM1/school-student-bag-1101-3.jpg",
+        "name": "School Bag",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/p3XwFsm/closeup-shot-golden-watch-isolated-181624-28492.jpg",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/VJx9m5d/sunglasses-realistic-set-with-different-models-sun-goggles-with-metal-plastic-frames-with-shadows-12.jpg",
+        "name": "Sunglasses",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "img": "https://i.ibb.co/vkJvG23/open-modern-laptop-with-blank-screen-isolated-white-90220-159.jpg",
+        "name": "Laptop",
+        "price": "2504.00",
+        "rating": 4
+      },
+      {
+        "id": 2,
+        "img": "https://i.ibb.co/dDkztM1/school-student-bag-1101-3.jpg",
+        "name": "School Bag",
+        "price": "31.10",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/p3XwFsm/closeup-shot-golden-watch-isolated-181624-28492.jpg",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/VJx9m5d/sunglasses-realistic-set-with-different-models-sun-goggles-with-metal-plastic-frames-with-shadows-12.jpg",
+        "name": "Sunglasses",
+        "price": "50.01",
+        "rating": 4
+      },
+      {
+        "id": 1,
+        "img": "https://i.ibb.co/p3XwFsm/closeup-shot-golden-watch-isolated-181624-28492.jpg",
+        "name": "Wrist Watch",
+        "price": "250.0",
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "img": "https://i.ibb.co/VJx9m5d/sunglasses-realistic-set-with-different-models-sun-goggles-with-metal-plastic-frames-with-shadows-12.jpg",
+        "name": "Sunglasses",
+        "price": "50.01",
+        "rating": 4
+      }
+    ]
+  }
+]
