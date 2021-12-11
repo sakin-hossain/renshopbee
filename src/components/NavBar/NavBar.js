@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import "./NavBar.css";
 
-const NavBar = () => {
+const NavBar = ({count}) => {
+    const totalProduct = count.length;
     const [click, setClick] = useState(false);
 
     const handleClick = () => {
@@ -55,7 +56,7 @@ const NavBar = () => {
                         <div className='navbar_icon' onClick={handleClick}>
                             <div className='shopping_cart'>
                                 <i class="fas fa-shopping-cart"></i>
-                                <span className='shopping_count'></span>
+                                <span className='shopping_count'>{totalProduct}</span>
                             </div>
                             <i class="fas fa-search"></i>
                             <div className='navbar_toggle'>

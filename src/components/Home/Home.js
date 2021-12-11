@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Discount from '../../Discount/Discount';
 import Banner from '../Banner/Banner';
 import BestSeller from '../BestSeller/BestSeller';
@@ -7,14 +7,21 @@ import Footer from '../Footer/Footer';
 import NavBar from '../NavBar/NavBar';
 import Offers from '../Offers/Offers';
 
+
 const Home = () => {
+    const [count, setCount] = useState('');
+    const handleCountChange = (products) =>{
+        const updatedCount = [...count,products]
+        setCount(updatedCount);
+    }
+
     return (
         <div>
-            <NavBar/>
+            <NavBar count = {count}/>
             <Banner/>
-            <BestSeller/>
+            <BestSeller handleCountChange={handleCountChange}/>
             <Offers/>
-            <Featured/>
+            <Featured handleCountChange={handleCountChange}/>
             <Discount/>
             <Footer/>
         </div>

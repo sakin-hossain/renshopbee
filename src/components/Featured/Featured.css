@@ -16,32 +16,10 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.products_details {
-  width: 18%;
-  margin: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 5px;
-  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
-}
-.products_details h5 {
-  color: #333333;
-  margin-left: 1rem;
-  font-size: 16px;
-}
-.products_details span {
-  color: #63c693;
-  margin-left: 1rem;
-  font-weight: 600;
-}
-
-@media screen and (max-width: 1024px) {
-  .products_details {
-    width: 25%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .products_details {
-    width: 70%;
-  }
+.rating i {
+  margin-top: 5px;
+  display: inline-block;
+  color: goldenrod;
+  margin: 0;
+  text-align: center;
 }

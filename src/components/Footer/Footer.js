@@ -1,5 +1,7 @@
 import React from 'react';
+import Flash from 'react-reveal/Flash';
 import "./Footer.css";
+
 
 const Footer = () => {
     return (
@@ -48,7 +50,7 @@ const Footer = () => {
             </div>
             <div>
                 <div className='copyright_container'>
-                    <div>Copyright 2017 RenoshopBee all right reserved - designed by <span>Md. Sakin Hossain</span></div>
+                    <div>Copyright 2017 RenoshopBee all right reserved - designed by <Flash><span>Md. Sakin Hossain</span></Flash></div>
                     <div>
                         <img src="https://i.ibb.co/m9fWFGR/visa.png" alt="" />
                         <img src="https://i.ibb.co/Mkp4Zyx/paypal.png" alt="" />
